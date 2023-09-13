@@ -47,7 +47,7 @@ Procedure
 
 ````
 
-2. need to create a file conf/Catalina/localhost/manager.xml and specify the rule you want to allow remote access. For example, the following content of manager.xml will allow access from all machines:
+4. need to create a file conf/Catalina/localhost/manager.xml and specify the rule you want to allow remote access. For example, the following content of manager.xml will allow access from all machines:
 
 					/opt/apache-tomcat-8.5.93/conf/Catalina/localhost
 
@@ -59,7 +59,7 @@ Procedure
 
 
 
-1. Build and the project on tomcat
+5. Build and the project on tomcat
  ```sh
     mvn tomcat7:deploy
 ````
