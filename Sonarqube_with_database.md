@@ -58,6 +58,7 @@ systemctl status postgresql
 `check point`: You should see postgres is running on 5432
 
 apt install net-tools
+netstat -tnlup
 
 `Source: https://docs.sonarqube.org/latest/requirements/requirements/`
 
@@ -93,7 +94,8 @@ cd /opt/
 
 ```sh
 wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-10.2.0.77647.zip
-unzip sonarqube-8.9.2.46101.zip
+apt install unzip
+sudo unzip sonarqube-8.9.2.46101.zip
 ```
 
 1. Update sonar.properties with below information

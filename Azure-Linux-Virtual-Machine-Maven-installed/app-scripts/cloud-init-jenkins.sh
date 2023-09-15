@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt update
 sudo apt install -y openjdk-17-jdk
 sudo apt install -y openjdk-17-jre
 sudo apt install git -y
