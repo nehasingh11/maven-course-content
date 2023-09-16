@@ -95,10 +95,12 @@ cd /opt/
 ```sh
 wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-10.2.0.77647.zip
 apt install unzip
-sudo unzip sonarqube-8.9.2.46101.zip
+unzip sonarqube-10.2.0.77647.zip
 ```
 
 1. Update sonar.properties with below information
+
+cd /opt/sonarqube-10.2.0.77647/conf
 
 ````sh
 sonar.jdbc.username=<sonar_database_username>
