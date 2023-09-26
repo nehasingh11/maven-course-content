@@ -9,6 +9,7 @@ SonarQube is an open-source static testing analysis software, it is used by deve
 
 ```sh
  sudo apt update
+ sudo apt upgrade -y
  sudo apt install -y openjdk-17-jdk
  sudo apt install -y openjdk-17-jre
 ```
